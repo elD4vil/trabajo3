@@ -1,0 +1,9 @@
+0,Salir,salir
+1,Realizar sumatoria del vector,sumar
+2,Realizar promedio del vector,promedio
+3,Realizar moda del vector,moda
+4,Contar elementos del vector,contar
+5,Crear Archivo,crear
+6,Agregar texto a archivo,agregar
+7,Conteo de Palabras,conteo
+8,indefinido,generico

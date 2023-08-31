@@ -1,0 +1,21 @@
+CC = g++
+CFLAGS = -Wall -std=c++11
+
+MAIN_DIR = main
+FUNCIONES_DIR = funciones
+
+MAIN_SOURCES = $(MAIN_DIR)/app.cpp
+FUNCIONES_SOURCES = $(FUNCIONES_DIR)/funciones.cpp
+
+HEADERS = $(FUNCIONES_DIR)/funciones.h
+
+EXECUTABLE = app
+
+all: $(EXECUTABLE)
+
+$(EXECUTABLE): $(MAIN_SOURCES) $(FUNCIONES_SOURCES) $(HEADERS)
+	$(CC) $(CFLAGS) $(MAIN_SOURCES) $(FUNCIONES_SOURCES) -o $@
+
+clean:
+	rm -rf $(EXECUTABLE)
+

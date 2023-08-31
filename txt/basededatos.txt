@@ -1,0 +1,4 @@
+Matias;admin
+Juan;userRookie
+Edgardo;userGeneral
+Sebastian;
