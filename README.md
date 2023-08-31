@@ -10,15 +10,15 @@ En esta estructura, cada línea representa un usuario seguido de un comando que 
 
 También sera necesario un archivo txt de nombre **MenuOpciones.txt** con la siguiente estructura:
 
-```0,Salir,salir```
-```1,Realizar sumatoria del vector,sumar```
-```2,Realizar promedio del vector,promedio```
-```3,Realizar moda del vector,moda```
-```4,Contar elementos del vector,contar```
-```5,Crear Archivo,crear```
-```6,Agregar texto a archivo,agregar```
-```7,Conteo de Palabras,conteo```
-```8,indefinido,generico```
+0,Salir,salir
+1,Realizar sumatoria del vector,sumar
+2,Realizar promedio del vector,promedio
+3,Realizar moda del vector,moda
+4,Contar elementos del vector,contar
+5,Crear Archivo,crear
+6,Agregar texto a archivo,agregar
+7,Conteo de Palabras,conteo
+8,indefinido,generico
 
 Ademas se necesitara  el archivo txt de nombre **perfilUsuario** con la siguiente estructura:
 
@@ -50,9 +50,9 @@ Será necesario que el codigo app.cpp se encuentre en un carpeta de nombre main.
 
 Se utilizara un archivo **.env** el cual contendra direcciones path importantes, que son los siguientes:
 
-```DATABASE_PATH=/home/benjaminc/Downloads/trabajo1.3-info198/txt/basededatos.txt```
-```MENU_PATH=/home/benjaminc/Downloads/trabajo1.3-info198/txt/MenuOpciones.txt```
-```PROFILE_PATH=/home/benjaminc/Downloads/trabajo1.3-info198/txt/perfilusuario.txt```
+DATABASE_PATH=/home/benjaminc/Downloads/trabajo1.3-info198/txt/basededatos.txt
+MENU_PATH=/home/benjaminc/Downloads/trabajo1.3-info198/txt/MenuOpciones.txt
+PROFILE_PATH=/home/benjaminc/Downloads/trabajo1.3-info198/txt/perfilusuario.txt
 
 # Argumentos
 
@@ -90,6 +90,3 @@ Se han introducido nuevas funcionalidades en el menú, brindándote mayor contro
 **Opción 5** te permitira crear el archivo txt.
 **Opción 6** te permitira crear el texto dentro del archivo txt(si este no esta creado, no funcionara esta opcion).
 **Opción 7** te permitira poder contar las palabras del archivo 1mb al guardar.
-
-
-
