@@ -50,18 +50,18 @@ Será necesario que el codigo app.cpp se encuentre en un carpeta de nombre main.
 
 Se utilizara un archivo **.env** el cual contendra direcciones path importantes, que son los siguientes:
 
-DATABASE_PATH=/home/benjaminc/Downloads/trabajo1.3-info198/txt/basededatos.txt
-MENU_PATH=/home/benjaminc/Downloads/trabajo1.3-info198/txt/MenuOpciones.txt
-PROFILE_PATH=/home/benjaminc/Downloads/trabajo1.3-info198/txt/perfilusuario.txt
+DATABASE_PATH=/home/benjaminc/Downloads/trabajo1.3-info198/txt/basededatos.txt  
+MENU_PATH=/home/benjaminc/Downloads/trabajo1.3-info198/txt/MenuOpciones.txt  
+PROFILE_PATH=/home/benjaminc/Downloads/trabajo1.3-info198/txt/perfilusuario.txt  
 
 # Argumentos
 
-**-u** = representa el nombre de usuario.
-**-v** = vector con varios numeros que `deben estar separados por comas`, que puede ser los valores enteros que usted deseé.
-**-f** = direccion path de alguna de sus carpetas, donde sera necesario poner al final un archivo txt.
-**-t** = texto que usted desee agregar al archivo txt que se le pidio ingresar.
-**-i** = direccion path de archivo txt de 1 mb para leer.
-**-o** = dirrecion path de archivo txt para poder guardar.
+**-u** = representa el nombre de usuario.  
+**-v** = vector con varios numeros que `deben estar separados por comas`, que puede ser los valores enteros que usted deseé.  
+**-f** = direccion path de alguna de sus carpetas, donde sera necesario poner al final un archivo txt.  
+**-t** = texto que usted desee agregar al archivo txt que se le pidio ingresar.  
+**-i** = direccion path de archivo txt de 1 mb para leer.  
+**-o** = dirrecion path de archivo txt para poder guardar.  
 
 Si el Usuario es valido entrara al interfaz. pero si el usuario no existe el codigo mandara un mensaje de error y se saldra el programa.
 
@@ -71,8 +71,8 @@ En la pantalla se veran las opciones disponibles, si intenta ingresar una opcion
 
 Ahora podrás ver en detalle las funciones que fueron implementadas durante la creación de este código. Además del código principal "app.cpp", necesitarás los siguientes archivos:
 
-**"funciones.cpp"**
-**"funciones.h"**
+**"funciones.cpp"**  
+**"funciones.h"**  
 
 Gracias a esto, el código será mucho más legible, y podrás revisar las funciones utilizadas en "funciones.cpp".
 
@@ -82,11 +82,11 @@ Ambas se encontraran dentro de una carpeta de nombre funciones.
 
 Se han introducido nuevas funcionalidades en el menú, brindándote mayor control sobre el uso de este:
 
-**Opción 0** te permitira salir del codigo
-**Opción 1** te permitira sumar el vector ingresado desde la consola.
-**Opción 2** te permitira sacar el promedio del vector.
-**Opción 3** te permitira sacar la moda del vector.
-**Opción 4** te permitira sacar la cantidad de elementos del vector.
-**Opción 5** te permitira crear el archivo txt.
-**Opción 6** te permitira crear el texto dentro del archivo txt(si este no esta creado, no funcionara esta opcion).
-**Opción 7** te permitira poder contar las palabras del archivo 1mb al guardar.
+**Opción 0** te permitira salir del codigo.  
+**Opción 1** te permitira sumar el vector ingresado desde la consola.  
+**Opción 2** te permitira sacar el promedio del vector.  
+**Opción 3** te permitira sacar la moda del vector.  
+**Opción 4** te permitira sacar la cantidad de elementos del vector.  
+**Opción 5** te permitira crear el archivo txt.  
+**Opción 6** te permitira crear el texto dentro del archivo txt(si este no esta creado, no funcionara esta opcion).  
+**Opción 7** te permitira poder contar las palabras del archivo 1mb al guardar.  
