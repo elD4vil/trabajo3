@@ -10,21 +10,21 @@ En esta estructura, cada línea representa un usuario seguido de un comando que 
 
 También sera necesario un archivo txt de nombre **MenuOpciones.txt** con la siguiente estructura:
 
-0,Salir,salir
-1,Realizar sumatoria del vector,sumar
-2,Realizar promedio del vector,promedio
-3,Realizar moda del vector,moda
-4,Contar elementos del vector,contar
-5,Crear Archivo,crear
-6,Agregar texto a archivo,agregar
-7,Conteo de Palabras,conteo
-8,indefinido,generico
+0,Salir,salir  
+1,Realizar sumatoria del vector,sumar  
+2,Realizar promedio del vector,promedio  
+3,Realizar moda del vector,moda  
+4,Contar elementos del vector,contar  
+5,Crear Archivo,crear  
+6,Agregar texto a archivo,agregar  
+7,Conteo de Palabras,conteo  
+8,indefinido,generico  
 
 Ademas se necesitara  el archivo txt de nombre **perfilUsuario** con la siguiente estructura:
 
-admin;1,2,3,4,5,6,7
-userGeneral;1,2,3,4
-userRookie;1,4
+admin;1,2,3,4,5,6,7  
+userGeneral;1,2,3,4  
+userRookie;1,4  
 
 Y finalmente los archivos txt de nombre **archivo1mb.txt**, que como su nombre lo dice, representa un txt que pesa 1mb, se recomienda que no sea de palabras repetidas, y el archivo **guardar.txt** el cual tiene que estar vacio.
 
