@@ -20,7 +20,7 @@ También sera necesario un archivo txt de nombre **MenuOpciones.txt** con la sig
 7,Conteo de Palabras,conteo  
 8,indefinido,generico  
 
-Ademas se necesitara  el archivo txt de nombre **perfilUsuario** con la siguiente estructura:
+Ademas se necesitara  el archivo txt de nombre **perfilUsuario.txt** con la siguiente estructura:
 
 admin;1,2,3,4,5,6,7  
 userGeneral;1,2,3,4  
